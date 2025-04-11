@@ -1,0 +1,288 @@
+.animationtext {
+    position: relative;
+    font-size: 3rem;
+    /* Adjust size as needed */
+}
+
+.cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 1.2em;
+    /* Adjust based on font size */
+}
+
+/* For the sliding and fading effect */
+.slide-text {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: fade-slide 4s infinite;
+}
+
+.sell-color {
+    color: goldenrod;
+}
+
+.shape-color {
+    color: #dbde75;
+}
+
+.ownerHomePage-title {
+    color: goldenrod;
+    font-size: 5vw !important;
+    margin-bottom: -400px !important;
+    /* Reduce the negative margin */
+    margin-top: 100px !important;
+    /* Add some margin at the top if needed */
+}
+
+.ownerHomepage-container {
+    display: flex;
+    flex-direction: column;
+    /* Stack paragraph and button vertically */
+    justify-content: center;
+    /* Center them vertically */
+    align-items: center;
+    /* Center them horizontally */
+    min-height: 100vh;
+    /* Full viewport height to center them */
+    text-align: center;
+    /* Align text in the center */
+}
+
+.ownerHomepage-para {
+    font-size: 20px;
+    /* Adjust the font size */
+    font-weight: 500;
+    /* Light font weight for the paragraph */
+    color: #FFFFF0;
+    /* Darker color for readability */
+    margin-bottom: 40px;
+    /* Space between the paragraph and button */
+    line-height: 1.6;
+    /* Line height for readability */
+    max-width: 800px;
+    /* Set a max-width for cohesive look */
+    font-style: italic;
+    /* Italic style for text */
+}
+
+/* Keyframes for fade-out and slide-in effect */
+@keyframes fade-slide {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+        /* Start above the container */
+    }
+
+    25% {
+        opacity: 1;
+        transform: translateY(20%);
+        /* Text slides into position */
+    }
+
+    75% {
+        opacity: 1;
+        transform: translateY(20%);
+        /* Text stays in place */
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(100%);
+        /* Text slides out of view to the bottom */
+    }
+}
+
+/* Optional: You can add a delay to each word change if needed */
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.custom-bootstrap-button {
+    background-color: white;
+    border-color: #007bff;
+    color: #333;
+}
+
+.custom-bootstrap-button:hover {
+    background-color: #f0f0f0;
+}
+
+.arrow {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.flip-container {
+    perspective: 1000px;
+}
+
+.flip-image {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    /* Maintain aspect ratio */
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-container:hover .flip-image {
+    transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.flip-front {
+    z-index: 2;
+}
+
+.flip-back {
+    transform: rotateY(180deg);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Add overlay on the back */
+}
+
+/* Centering the button */
+.owner-btn-container {
+    display: flex;
+    justify-content: center;
+    /* Center the button horizontally */
+    align-items: center;
+    /* Center the button vertically (if you need it in the vertical center) */
+}
+
+/* Button styling */
+.owner-btn {
+    width: 250px;
+    background-color: rgba(3, 156, 62, 0.986);
+    /* Olive Green #A9B94E*/
+    color: #FFFFFF;
+    /* White text */
+    padding: 12px 24px;
+    /* Adjust padding */
+    border-radius: 8px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Larger font */
+    font-weight: bold;
+    /* Bold text */
+    border: none;
+    /* Remove border */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.owner-btn:hover {
+    background-color: rgb(4, 119, 79);
+    /* Darker Olive Green for hover effect  #6B8E23*/
+    transform: scale(1.05);
+}
+
+.owner-btn:active {
+    background-color: rgb(4, 119, 79);
+    /* Even darker Olive Green for active state */
+    transform: scale(0.95);
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+    overflow: hidden;
+}
+
+.text-container h1 {
+    letter-spacing: 1px;
+    margin: 0;
+    animation: text-appear 1s forwards;
+}
+
+/* Animation for appearing letters */
+@keyframes text-appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+    .ownerHomePage-title {
+        font-size: 7vw !important;
+        margin-bottom: -100px !important;
+    }
+
+    .ownerHomepage-para {
+        font-size: 16px;
+        max-width: 95%;
+    }
+
+    .owner-btn {
+        width: 150px;
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .text-container {
+        font-size: 1.5rem;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 900px) {
+    .ownerHomePage-title {
+        font-size: 6vw !important;
+        margin-bottom: -200px !important;
+    }
+
+    .ownerHomepage-para {
+        font-size: 18px;
+        max-width: 90%;
+    }
+
+    .owner-btn {
+        width: 180px;
+        padding: 10px 20px;
+    }
+
+    .text-container {
+        font-size: 2rem;
+    }
+}

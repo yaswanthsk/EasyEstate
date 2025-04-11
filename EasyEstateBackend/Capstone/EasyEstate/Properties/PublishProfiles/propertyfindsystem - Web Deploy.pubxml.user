@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7kwX6/mEnE+0Moa0ytnvugAAAAACAAAAAAADZgAAwAAAABAAAAAwRPBYgnSftOMYFk0u+hAtAAAAAASAAACgAAAAEAAAAHM2gXpIpi+YEEpcqNbAfeeAAAAAL9DUtCO3YCBzOcShoI1MRpGEyBOVZciqEq1GD3ZnRxzlfmx5noC1Tv3p5WxEDYPKecrN/4BI/K+fTm92AKpnyoZ6+bZb+hX/+XUzgnAe8rBoREORYTQD0QgbKEPlE47B4x70BT1afY52lCGk23gEs1zZbQY0TkWm4tOAYqp2J/8UAAAAlCbK0doaQnBZL14XVKxn7Zcsc+E=</EncryptedPassword>
+    <History>True|2025-01-05T13:45:59.6644423Z||;True|2025-01-05T18:56:09.2473477+05:30||;True|2025-01-03T10:57:05.2391252+05:30||;True|2024-12-27T13:01:38.7039534+05:30||;True|2024-12-22T20:36:43.5376510+05:30||;True|2024-12-22T18:50:03.7403294+05:30||;True|2024-12-22T18:44:33.0435587+05:30||;True|2024-12-21T15:12:44.1040286+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="conn">
+      <Value>Server=tcp:easyestatepropertyappdb.database.windows.net,1433%3bInitial Catalog=EasyEstate%3bPersist Security Info=False%3bUser ID=HDLCAMPUS9328%3bPassword=Lakshmi%4016%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Data_Access_Layer.Data.AuthDbContext">
+      <Value>Server=tcp:easyestatepropertyappdb.database.windows.net,1433%3bInitial Catalog=EasyEstate%3bPersist Security Info=False%3bUser ID=HDLCAMPUS9328%3bPassword=Lakshmi%4016%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

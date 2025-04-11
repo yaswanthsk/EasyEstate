@@ -1,0 +1,328 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\Capstone\\EasyEstate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA48F541-9867-4F5F-A80D-CBF12E18A5F8}|..\\Bussiness Layer\\BussinessLayer.csproj|c:\\projects\\capstone\\bussiness layer\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32707148-4903-44DC-852F-7C7DDE9E7314}|EasyEstate.csproj|c:\\projects\\capstone\\easyestate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32707148-4903-44DC-852F-7C7DDE9E7314}|EasyEstate.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB0248F-C0B0-4BB3-9617-96FDCA6731B0}|..\\Data Access Layer\\DataAccessLayer.csproj|c:\\projects\\capstone\\data access layer\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA48F541-9867-4F5F-A80D-CBF12E18A5F8}|..\\Bussiness Layer\\BussinessLayer.csproj|c:\\projects\\capstone\\bussiness layer\\implementations\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA48F541-9867-4F5F-A80D-CBF12E18A5F8}|..\\Bussiness Layer\\BussinessLayer.csproj|c:\\projects\\capstone\\bussiness layer\\implementations\\ownerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32707148-4903-44DC-852F-7C7DDE9E7314}|EasyEstate.csproj|c:\\projects\\capstone\\easyestate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32707148-4903-44DC-852F-7C7DDE9E7314}|EasyEstate.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB0248F-C0B0-4BB3-9617-96FDCA6731B0}|..\\Data Access Layer\\DataAccessLayer.csproj|c:\\projects\\capstone\\data access layer\\data\\authdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32707148-4903-44DC-852F-7C7DDE9E7314}|EasyEstate.csproj|c:\\projects\\capstone\\easyestate\\controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32707148-4903-44DC-852F-7C7DDE9E7314}|EasyEstate.csproj|solutionrelative:controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA48F541-9867-4F5F-A80D-CBF12E18A5F8}|..\\Bussiness Layer\\BussinessLayer.csproj|c:\\projects\\capstone\\bussiness layer\\implementations\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA48F541-9867-4F5F-A80D-CBF12E18A5F8}|..\\Bussiness Layer\\BussinessLayer.csproj|c:\\projects\\capstone\\bussiness layer\\implementations\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB0248F-C0B0-4BB3-9617-96FDCA6731B0}|..\\Data Access Layer\\DataAccessLayer.csproj|c:\\projects\\capstone\\data access layer\\implementations\\ownerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{044F2094-355F-493A-A067-171116949AA0}|..\\Entitiy Layer\\EntitiyLayer.csproj|c:\\projects\\capstone\\entitiy layer\\propertymodel\\pg_guesthouses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{044F2094-355F-493A-A067-171116949AA0}|..\\Entitiy Layer\\EntitiyLayer.csproj|c:\\projects\\capstone\\entitiy layer\\chatmodel\\chatmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA48F541-9867-4F5F-A80D-CBF12E18A5F8}|..\\Bussiness Layer\\BussinessLayer.csproj|c:\\projects\\capstone\\bussiness layer\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB0248F-C0B0-4BB3-9617-96FDCA6731B0}|..\\Data Access Layer\\DataAccessLayer.csproj|c:\\projects\\capstone\\data access layer\\implementations\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA48F541-9867-4F5F-A80D-CBF12E18A5F8}|..\\Bussiness Layer\\BussinessLayer.csproj|c:\\projects\\capstone\\bussiness layer\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA48F541-9867-4F5F-A80D-CBF12E18A5F8}|..\\Bussiness Layer\\BussinessLayer.csproj|c:\\projects\\capstone\\bussiness layer\\dtos\\accountdto\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{044F2094-355F-493A-A067-171116949AA0}|..\\Entitiy Layer\\EntitiyLayer.csproj|c:\\projects\\capstone\\entitiy layer\\statusmodel\\propstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32707148-4903-44DC-852F-7C7DDE9E7314}|EasyEstate.csproj|c:\\projects\\capstone\\easyestate\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32707148-4903-44DC-852F-7C7DDE9E7314}|EasyEstate.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OwnerService.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Bussiness Layer\\Implementations\\OwnerService.cs",
+              "RelativeDocumentMoniker": "..\\Bussiness Layer\\Implementations\\OwnerService.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Bussiness Layer\\Implementations\\OwnerService.cs",
+              "RelativeToolTip": "..\\Bussiness Layer\\Implementations\\OwnerService.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T05:35:56.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Bussiness Layer\\Implementations\\ChatService.cs",
+              "RelativeDocumentMoniker": "..\\Bussiness Layer\\Implementations\\ChatService.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Bussiness Layer\\Implementations\\ChatService.cs",
+              "RelativeToolTip": "..\\Bussiness Layer\\Implementations\\ChatService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T10:01:15.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Bussiness Layer\\Implementations\\CustomerService.cs",
+              "RelativeDocumentMoniker": "..\\Bussiness Layer\\Implementations\\CustomerService.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Bussiness Layer\\Implementations\\CustomerService.cs",
+              "RelativeToolTip": "..\\Bussiness Layer\\Implementations\\CustomerService.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAYwEEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:13:24.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Bussiness Layer\\Implementations\\ChatHub.cs",
+              "RelativeDocumentMoniker": "..\\Bussiness Layer\\Implementations\\ChatHub.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Bussiness Layer\\Implementations\\ChatHub.cs",
+              "RelativeToolTip": "..\\Bussiness Layer\\Implementations\\ChatHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T08:14:46.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projects\\Capstone\\EasyEstate\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\projects\\Capstone\\EasyEstate\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T06:31:28.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthDbContex.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Data Access Layer\\Data\\AuthDbContex.cs",
+              "RelativeDocumentMoniker": "..\\Data Access Layer\\Data\\AuthDbContex.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Data Access Layer\\Data\\AuthDbContex.cs",
+              "RelativeToolTip": "..\\Data Access Layer\\Data\\AuthDbContex.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAcwCgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T04:34:44.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OwnerController.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\EasyEstate\\Controllers\\OwnerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OwnerController.cs",
+              "ToolTip": "C:\\projects\\Capstone\\EasyEstate\\Controllers\\OwnerController.cs",
+              "RelativeToolTip": "Controllers\\OwnerController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T08:53:03.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PG_GuestHouses.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Entitiy Layer\\PropertyModel\\PG_GuestHouses.cs",
+              "RelativeDocumentMoniker": "..\\Entitiy Layer\\PropertyModel\\PG_GuestHouses.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Entitiy Layer\\PropertyModel\\PG_GuestHouses.cs",
+              "RelativeToolTip": "..\\Entitiy Layer\\PropertyModel\\PG_GuestHouses.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T09:23:07.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OwnerRepository.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Data Access Layer\\Implementations\\OwnerRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data Access Layer\\Implementations\\OwnerRepository.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Data Access Layer\\Implementations\\OwnerRepository.cs",
+              "RelativeToolTip": "..\\Data Access Layer\\Implementations\\OwnerRepository.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAgwFcAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T11:00:59.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChatMessages.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Entitiy Layer\\ChatModel\\ChatMessages.cs",
+              "RelativeDocumentMoniker": "..\\Entitiy Layer\\ChatModel\\ChatMessages.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Entitiy Layer\\ChatModel\\ChatMessages.cs",
+              "RelativeToolTip": "..\\Entitiy Layer\\ChatModel\\ChatMessages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:12:11.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\EasyEstate\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\projects\\Capstone\\EasyEstate\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAANAAAAAAAAAAAAAQwNwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T06:29:46.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Bussiness Layer\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\Bussiness Layer\\Implementations\\AuthService.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Bussiness Layer\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "..\\Bussiness Layer\\Implementations\\AuthService.cs",
+              "ViewState": "AQIAABQBAAAAAAAAAAAowCABAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T05:53:07.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Bussiness Layer\\Implementations\\AccountService.cs",
+              "RelativeDocumentMoniker": "..\\Bussiness Layer\\Implementations\\AccountService.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Bussiness Layer\\Implementations\\AccountService.cs",
+              "RelativeToolTip": "..\\Bussiness Layer\\Implementations\\AccountService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwJ8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T09:59:36.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Data Access Layer\\Implementations\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data Access Layer\\Implementations\\AuthRepository.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Data Access Layer\\Implementations\\AuthRepository.cs",
+              "RelativeToolTip": "..\\Data Access Layer\\Implementations\\AuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T17:49:55.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Data Access Layer\\Implementations\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data Access Layer\\Implementations\\CustomerRepository.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Data Access Layer\\Implementations\\CustomerRepository.cs",
+              "RelativeToolTip": "..\\Data Access Layer\\Implementations\\CustomerRepository.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T17:49:56.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Bussiness Layer\\Interfaces\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "..\\Bussiness Layer\\Interfaces\\ICustomerService.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Bussiness Layer\\Interfaces\\ICustomerService.cs",
+              "RelativeToolTip": "..\\Bussiness Layer\\Interfaces\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T11:35:05.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetUserDto.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Bussiness Layer\\DTOs\\AccountDto\\GetUserDto.cs",
+              "RelativeDocumentMoniker": "..\\Bussiness Layer\\DTOs\\AccountDto\\GetUserDto.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Bussiness Layer\\DTOs\\AccountDto\\GetUserDto.cs",
+              "RelativeToolTip": "..\\Bussiness Layer\\DTOs\\AccountDto\\GetUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:14:45.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PropStatus.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\Entitiy Layer\\StatusModel\\PropStatus.cs",
+              "RelativeDocumentMoniker": "..\\Entitiy Layer\\StatusModel\\PropStatus.cs",
+              "ToolTip": "C:\\projects\\Capstone\\Entitiy Layer\\StatusModel\\PropStatus.cs",
+              "RelativeToolTip": "..\\Entitiy Layer\\StatusModel\\PropStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T08:17:12.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\projects\\Capstone\\EasyEstate\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
+              "ToolTip": "C:\\projects\\Capstone\\EasyEstate\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Controllers\\ChatController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T07:26:10.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

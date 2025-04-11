@@ -1,0 +1,155 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 210vh; */
+    background-color: #f8f8f8;
+    padding: 50px;
+}
+
+.main-div .main-form {
+    background-color: rgba(223, 220, 231, 0.8);
+    /* Form background color */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+}
+
+/* Heading Style */
+.main-div .main-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    /* Heading text color */
+}
+
+/* Label Styles */
+.main-div .main-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000005;
+    /* Label text color */
+}
+
+/* Input and Textarea Styles */
+.main-div .main-form input[type="text"],
+.main-div .main-form input[type="number"],
+.main-div .main-form textarea,
+.main-div .main-form select {
+
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    /* Border color */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    /* Input background color */
+    color: #000000;
+    /* Input text color */
+}
+
+.main-div .main-form input[type="number"] {
+    -webkit-appearance: none;
+}
+
+.main-div .main-form input[type="number"]:not([type="text"]) {
+    user-select: none;
+}
+
+.main-div .main-form textarea {
+    height: 150px;
+    /* Adjust height of textarea */
+}
+
+.main-div .main-form select {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+/* Submit Button Styles */
+.main-div .main-form button[type="submit"] {
+    background-color: rgb(85, 84, 82);
+    /* Button background color */
+    color: rgb(254, 252, 254);
+    /* Button text color */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    /* Added margin for spacing */
+}
+
+.main-div .main-form button[type="submit"]:hover {
+    background-color: rgb(16, 15, 15);
+    /* Hover color */
+}
+
+/* Error Message */
+.main-div .main-form p.error {
+    color: red;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main-div .main-form {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .add-price {
+        font-size: 0.85rem !important;
+    }
+}
+
+/* Image Upload Section */
+.main-div .upload-images-main {
+    margin-bottom: 20px;
+    display: flex;
+    color: #060606;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.main-div .upload-images-main .radio-group {
+    display: flex;
+    gap: 10px;
+}
+
+.main-div .upload-images-main .radio-group label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.main-div .upload-images-main .label-text {
+    margin-right: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.main-div .upload-images-main .label-text-main {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+
+.main-div .main-form .upload-images-main input[type="file"] {
+    padding: 0;
+    margin-left: -100px;
+    margin-top: 7px;
+}
+
+/* Optional: Smaller font for labels */
+.main-div .upload-images-main .label-text-main {
+    font-size: 1rem;
+    /* Adjust as needed */
+}

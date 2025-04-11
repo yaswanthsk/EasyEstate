@@ -1,0 +1,210 @@
+.registration-container {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    margin: 50px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-width: 1200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* Hide scrollbar */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.registration-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+ 
+.left-section-registration {
+    flex: 1;
+    position: relative;
+    background-color: lightgray;
+    height: 630px;
+    /* background-size: cover;
+    background-position: center;
+    height: 600px; */
+}
+ 
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: fit;
+}
+ 
+.right-section-registration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 600px;
+}
+ 
+.register-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+.form-group .form-control {
+    width: 100% !important;
+}
+
+ 
+.input-group .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Ensure padding does not affect width */
+    height: 40px;
+}
+ 
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+.form-control{
+    width:100%;
+}
+ 
+.form-group {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    margin-bottom: 15px; /* Add spacing between form groups */
+}
+
+.form-group label {
+    margin-bottom: 5px; /* Add spacing between label and input */
+    font-weight: bold;
+}
+ 
+.form-group input,
+.form-group select {
+    width: 100%; /* Ensure inputs fill the container width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   /* box-sizing: border-box; */
+}
+ 
+.register_btn {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+.register_btn:hover {
+    background: #0056b3;
+}
+ 
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+ 
+.error-text {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+ 
+ 
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+}
+ 
+.error-text {
+    position: absolute;
+    bottom: -20px;
+    /* Adjust this to position the error text inside the gap */
+    left: 0;
+    color: red;
+    font-size: 12px;
+    visibility: hidden;
+    /* Hide the error text by default */
+    height: 16px;
+    /* Reserve space for the error */
+    line-height: 16px;
+    display: block;
+}
+ 
+.error-text.active {
+    visibility: visible;
+    /* Show the error text when an error occurs */
+}
+ 
+h3 {
+    text-align: center;
+    /* Centers the text horizontally within its container */
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .registration-container {
+        flex-direction: column;
+     /* Stack sections vertically */
+    }
+
+    .left-section-registration {
+        height: 40vh; /* Restrict image height on smaller screens */
+        min-height: 150px; /* Ensure image doesn't get too small */
+        background-image: url('/src/Assets/Images/property8.jpg');
+    }
+
+    .background-image {
+        object-fit: cover;
+    }
+
+    .right-section-registration {
+        margin-top: 110px;
+        padding: 20px;
+        width: 100%;
+        min-height: 300px; /* Minimum height for right section */
+    }
+
+    .register-box {
+        max-width: 90%; /* Adjust box width for smaller screens */
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .left-section-registration {
+        height: 30vh; /* Further reduce image height for very small screens */
+    }
+
+    .register-box {
+        padding: 15px;
+    }
+
+    .form-group label {
+        font-size: 14px;
+    }
+
+    .register_btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .error-text {
+        font-size: 10px;
+    }
+}

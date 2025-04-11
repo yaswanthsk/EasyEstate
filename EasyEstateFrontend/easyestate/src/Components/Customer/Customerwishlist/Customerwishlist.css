@@ -1,0 +1,31 @@
+button:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+.interested-btn {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    font-weight: bold; /* Bold text */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 12px 24px; /* Padding for better click area */
+    cursor: pointer; /* Change cursor to pointer when hovering */
+    font-size: 16px; /* Adjust font size */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .interested-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  .interested-btn:focus {
+    outline: none; /* Remove default focus outline */
+    border: 2px solid #218838; /* Green border on focus */
+  }
+  
+  .interested-btn:active {
+    background-color: #1e7e34; /* Even darker green when clicked */
+  }
+  

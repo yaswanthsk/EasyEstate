@@ -1,0 +1,12 @@
+C:\projects\Capstone\Entitiy Layer\obj\Debug\net8.0\EntitiyLayer.csproj.AssemblyReference.cache
+C:\projects\Capstone\Entitiy Layer\obj\Debug\net8.0\EntitiyLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Capstone\Entitiy Layer\obj\Debug\net8.0\EntitiyLayer.AssemblyInfoInputs.cache
+C:\projects\Capstone\Entitiy Layer\obj\Debug\net8.0\EntitiyLayer.AssemblyInfo.cs
+C:\projects\Capstone\Entitiy Layer\obj\Debug\net8.0\EntitiyLayer.csproj.CoreCompileInputs.cache
+C:\projects\Capstone\Entitiy Layer\bin\Debug\net8.0\EntitiyLayer.deps.json
+C:\projects\Capstone\Entitiy Layer\bin\Debug\net8.0\EntitiyLayer.dll
+C:\projects\Capstone\Entitiy Layer\bin\Debug\net8.0\EntitiyLayer.pdb
+C:\projects\Capstone\Entitiy Layer\obj\Debug\net8.0\EntitiyLayer.dll
+C:\projects\Capstone\Entitiy Layer\obj\Debug\net8.0\refint\EntitiyLayer.dll
+C:\projects\Capstone\Entitiy Layer\obj\Debug\net8.0\EntitiyLayer.pdb
+C:\projects\Capstone\Entitiy Layer\obj\Debug\net8.0\ref\EntitiyLayer.dll

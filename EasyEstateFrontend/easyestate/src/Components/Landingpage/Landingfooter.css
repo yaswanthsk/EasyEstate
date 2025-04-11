@@ -1,0 +1,104 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+ 
+.footer-col {
+    margin-bottom: 20px;
+    /* Adjust spacing as needed */
+    padding-top: 20px;
+    padding-left: 50px;
+    font-family: "'Open Sans', sans-serif";
+}
+ 
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+.footer-col li {
+    margin-bottom: 10px;
+}
+ 
+.footer-col a {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.footer-col a:hover {
+    text-decoration: underline;
+}
+ 
+.copyright {
+    text-align: center;
+    padding-top: 10px;
+    /* Adjust top padding */
+}
+.footer-color{
+    background-color: green;
+    width:100%;
+    background-size: cover;
+}
+/* Add more styles for responsiveness as needed */
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    /* Adjust the columns to stack vertically */
+    .footer-col {
+        margin-bottom: 15px; /* Adds space between columns on mobile */
+        text-align: center; /* Centers text in columns */
+        box-sizing: border-box;
+    }
+
+    /* Stack the columns vertically */
+    .footer .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer-col h3 {
+        font-size: 1.2rem; /* Slightly smaller font for headers */
+        text-align: center !important;
+    }
+
+    /* Adjust the quick links */
+    .footer-col ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .footer-col ul li {
+        margin-bottom: 8px; /* Space between list items */
+    }
+
+    /* Contact information */
+    .footer-col p {
+        font-size: 0.9rem; /* Smaller text size for mobile */
+    }
+    
+    /* Adjust footer's bottom section */
+    .copyright {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* Make the footer content fully responsive */
+    .footer {
+        padding: 20px 0;
+    }
+}
+
+/* Additional custom media queries for tablet responsiveness */
+@media (max-width: 576px) {
+    .footer-col {
+        margin-bottom: 12px; /* Reduce margin on very small screens */
+    }
+
+    .footer-col h3 {
+        font-size: 1rem; /* Smaller text for headings */
+    }
+
+    .footer-col p {
+        font-size: 0.8rem; /* Even smaller text for mobile */
+    }
+}

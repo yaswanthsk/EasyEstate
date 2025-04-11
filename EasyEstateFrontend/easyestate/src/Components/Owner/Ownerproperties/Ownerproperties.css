@@ -1,0 +1,325 @@
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fdfcf9; /* Light cream background */
+    border-radius: 12px;
+    border: 1px solid #f3ebe2; /* Subtle border to match the background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08), inset 0 1px 2px rgba(0, 0, 0, 0.05);
+    max-width: 100%; /* Ensure it uses full width */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .filters:hover {
+    background-color: #fdfcf9; /* Even lighter cream hover effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1), inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .filters label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #5c4e3d; /* Soft brown for contrast */
+    width: 22%; /* Adjust for 4 items per row */
+    min-width: 200px; /* Ensure label elements are wide enough */
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .filters label:hover {
+    color: #8a7258; /* Slightly brighter brown on hover */
+    transform: scale(1.03); /* Subtle zoom effect */
+  }
+  
+  .filters select,
+  .filters input {
+    padding: 12px 15px;
+    margin-top: 5px;
+    border: 1px solid #e6dfd2; /* Softer border */
+    border-radius: 25px;
+    font-size: 14px;
+    color: #555;
+    background-color: white;
+    transition: all 0.3s ease;
+    width: 100%; /* Ensures the input/select elements take full width */
+    box-sizing: border-box; /* Prevents padding from affecting width */
+    box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.05);
+  }
+  
+  .filters select:focus,
+  .filters input:focus {
+    border-color: #c9b6a3; /* Soft cream focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(201, 182, 163, 0.5); /* Focus effect */
+  }
+  
+  .filters input[type="text"]::placeholder {
+    color: #aaa;
+    font-style: italic; /* Makes placeholders visually distinct */
+  }
+  
+  .filters select:hover,
+  .filters input:hover {
+    border-color: #c9b6a3; /* Hover effect */
+    background-color: #fdfbf7; /* Slight hover background */
+  }
+  
+  .filters .MuiSlider-root {
+    color: #c9b6a3; /* Light cream brown slider color */
+    margin-top: 10px;
+  }
+  
+  .filters .MuiSlider-thumb {
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #c9b6a3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .filters .MuiSlider-track {
+    background-color: #c9b6a3;
+    height: 6px;
+  }
+  
+  .filters .MuiSlider-rail {
+    background-color: #e6dfd2;
+    height: 6px;
+  }
+  
+  .filters .MuiSlider-valueLabel {
+    background-color: #c9b6a3;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px 8px;
+  }
+  
+  .filters .filter-button {
+    padding: 12px 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    background: linear-gradient(45deg, #c9b6a3, #e6dfd2);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .filters .filter-button:hover {
+    background: linear-gradient(45deg, #b8a28c, #dcd3c0);
+    transform: scale(1.05); /* Subtle button hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .filters .reset-button {
+    padding: 12px 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #c9b6a3;
+    background: #ffffff;
+    border: 1px solid #c9b6a3;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .filters .reset-button:hover {
+    background: #fefcf8; /* Subtle cream tint on hover */
+    transform: scale(1.05); /* Subtle button hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 1024px) {
+    .filters label {
+      width: 48%; /* 2 per row on medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .filters label {
+      width: 100%; /* 1 per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .filters label {
+      width: 100%; /* Stacks all filter items in one column on very small screens */
+    }
+  }
+  
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 4 columns per row */
+    gap: 30px;
+    /* Spacing between cards */
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    /* Optional border for the cards */
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 210px;
+    object-fit: fill;
+  }
+  
+  .card-content {
+    padding: 15px;
+    background-color: #ffffff;
+    height: 270px;
+  }
+  
+  .updateProperties_btn, 
+  .deleteProperties_btn {
+    background-color: rgba(3, 156, 62, 0.986);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none; /* Remove any default border */
+    outline: none; /* Remove default focus outline */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* Space between text and icon */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .updateProperties_btn:hover {
+    background-color: rgb(4, 119, 79);
+  }
+  
+  .deleteProperties_btn:hover {
+    background-color: rgb(4, 119, 79);
+  }
+  
+  .updateProperties_btn:focus, 
+  .deleteProperties_btn:focus {
+    outline: 2px solid olive; /* Optional: Customize focus outline color */
+  }
+  
+  .properties-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  @keyframes waveAnimation {
+    0% {
+      background-position: 100% 100%;
+    }
+  
+    50% {
+      background-position: 50% 50%;
+    }
+  
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+
+  .data-not-found-main {
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    display: flex; /* Optional: If you want to align items */
+    justify-content: center; /* Optional: Horizontally center the content */
+    align-items: center; /* Optional: Vertically center the content */
+    background-color: #eef5f9; /* Optional: Add a background color */
+    padding: 0;
+    margin: 0;
+}
+
+.data-not-found-container {
+    height: 80vh; /* Adjusted container height */
+    width: 100%; /* Full width */
+    margin: 50px auto;
+    max-width: 800px;
+    background-color: #fbfdfa;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: flex; /* Flex layout */
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center; /* Center text inside */
+}
+
+.data-not-found-content {
+    background-color: #fbfdfa;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center; /* Center items horizontally */
+    gap: 20px; /* Spacing between image and text */
+}
+
+.data-not-found-image {
+    max-width: 300px; /* Set a max width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.data-not-found-span {
+    color: black;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+  
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 1024px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr);
+      /* 3 columns per row */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card-container {
+      grid-template-columns: repeat(1, 1fr);
+      /* 2 columns per row */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card-container {
+      grid-template-columns: repeat(1, 1fr);
+      /* 1 column per row on very small screens */
+    }
+  }
+
+  @media (max-width: 328px) {
+    .card-container {
+      grid-template-columns: repeat(1, 1fr);
+      /* 1 column per row on very small screens */
+    }
+
+    .updateProperties_btn,
+    .deleteProperties_btn {
+      font-size: 10px;
+    }
+  }

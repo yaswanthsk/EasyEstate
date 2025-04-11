@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\projects\Capstone\EasyEstate\obj\Release\net8.0\PubTmp\Out\" />
+  <dbfullsql path="C:\projects\Capstone\EasyEstate\obj\Release\net8.0\PubTmp\EFSQLScripts\Data_Access_Layer.Data.AuthDbContext.sql" />
+</sitemanifest>

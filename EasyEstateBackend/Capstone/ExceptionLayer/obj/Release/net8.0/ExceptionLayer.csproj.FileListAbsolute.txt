@@ -1,0 +1,12 @@
+C:\projects\Capstone\ExceptionLayer\bin\Release\net8.0\ExceptionLayer.deps.json
+C:\projects\Capstone\ExceptionLayer\bin\Release\net8.0\ExceptionLayer.dll
+C:\projects\Capstone\ExceptionLayer\bin\Release\net8.0\ExceptionLayer.pdb
+C:\projects\Capstone\ExceptionLayer\obj\Release\net8.0\ExceptionLayer.csproj.AssemblyReference.cache
+C:\projects\Capstone\ExceptionLayer\obj\Release\net8.0\ExceptionLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Capstone\ExceptionLayer\obj\Release\net8.0\ExceptionLayer.AssemblyInfoInputs.cache
+C:\projects\Capstone\ExceptionLayer\obj\Release\net8.0\ExceptionLayer.AssemblyInfo.cs
+C:\projects\Capstone\ExceptionLayer\obj\Release\net8.0\ExceptionLayer.csproj.CoreCompileInputs.cache
+C:\projects\Capstone\ExceptionLayer\obj\Release\net8.0\ExceptionLayer.dll
+C:\projects\Capstone\ExceptionLayer\obj\Release\net8.0\refint\ExceptionLayer.dll
+C:\projects\Capstone\ExceptionLayer\obj\Release\net8.0\ExceptionLayer.pdb
+C:\projects\Capstone\ExceptionLayer\obj\Release\net8.0\ref\ExceptionLayer.dll

@@ -1,0 +1,463 @@
+.custom-hr {
+    position: relative;
+    border: none;
+    /* Remove the default border */
+    height: 1px;
+    background-color: #000;
+    /* Set the color of the line */
+    margin: 20px 0;
+    /* Optional: space above and below the line */
+    color: rgb(225, 223, 223);
+  }
+  
+  .custom-hr::before,
+  .custom-hr::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 20px;
+    /* Define the width of the gap */
+    height: 1px;
+    background-color: #fff;
+    /* Set the gap color (or match the background) */
+  }
+  
+  .custom-hr::before {
+    left: 0;
+    /* Position the gap at the left */
+  }
+  
+  .custom-hr::after {
+    right: 0;
+    /* Position the gap at the right */
+  }
+  
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .property-carousel img {
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;  /* Smooth transition */
+  }
+ 
+  .property-carousel img:hover {
+    transform: scale(1.05);            /* Slight zoom effect */
+    filter: brightness(1.2);           /* Increase the brightness when hovered */
+  }
+ 
+  .image-gallery {
+    display: flex;               /* Enables Flexbox layout */
+    justify-content: center;     /* Center the images horizontally */
+    gap: 20px;                   /* Adds space between images */
+    flex-wrap: wrap;             /* Ensures images wrap to the next row on small screens */
+  }
+ 
+  .image-gallery img {
+    width: calc(33.33% - 20px);  /* Adjust the width to fit three images with gaps */
+    height: 400px;               /* Maintain height */
+    border-radius: 40px;         /* Keeps the border radius */
+    padding: 0;                  /* Removes extra padding */
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition */
+  }
+ 
+  .image-gallery img:hover {
+    transform: scale(1.05);      /* Slight zoom effect */
+    filter: brightness(1.2);     /* Increase brightness when hovered */
+  }
+  
+  
+  .slick-dots {
+    bottom: 0px;
+  }
+  
+  /* Container that holds both sections */
+  .containerPartition {
+    display: flex;
+    /* Use Flexbox to create a row layout */
+    height: 100vh;
+    /* Make the container take the full height of the screen */
+  }
+  
+  .Partitiondata-section {
+    flex: 1;
+    padding: 20px;
+    /* Add padding for content */
+    overflow-y: auto;
+    /* Allow scrolling if content overflows */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+  }
+  
+  .Partitiondata-section::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+  }
+  
+  /* Flexbox container */
+  .flex-container {
+    display: flex;
+    /* Enables Flexbox */
+    justify-content: space-around;
+    /* Aligns items with space between them */
+    align-items: flex-start;
+    /* Aligns items to the top */
+    gap: 20px;
+    /* Adds space between items */
+    padding: 20px;
+    /* Adds padding inside the container */
+  }
+  
+  /* Flex item (details) */
+  .detailed {
+    background-color: #e5fbfe;
+    /* Light background color */
+    border-radius: 10px;
+    /* Rounded corners */
+    padding: 15px;
+    /* Padding inside each item */
+    width: 310px;
+    /* Fixed width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    /* Use Flexbox layout */
+    align-items: center;
+    /* Vertically align items in the center */
+    gap: 10px;
+    /* Adds space between h6 and p */
+    border: 1px solid #292828;
+    margin-bottom: 15px;
+    /* Removes default margin around h6 */
+  }
+  
+  .detailed i {
+    font-size: 20px;
+    /* Set icon size */
+    color: #292929;
+    /* Icon color */
+  }
+  
+  /* Heading style */
+  .detailed h6 {
+    margin: 0;
+    margin-left: 30px;
+  }
+  
+  /* Paragraph style */
+  .detailed p {
+    margin: 0;
+    /* Removes default margin around p */
+    font-size: 14px;
+    /* Sets font size */
+    color: #292929;
+    /* Sets text color */
+  }
+  
+  /* Row containing property items */
+  .property-row-table {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top:20px;
+  }
+  
+  /* Property item (each individual property detail row) */
+  .property-item-table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    /* Adjust width for responsive design */
+    background-color: #ffffff;
+    /* White background for property item */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect for property items */
+  .property-item-table:hover {
+    transform: translateY(-5px);
+    /* Slight lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Icon container for each property detail */
+  .icon-box-table {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  /* Styling for the icon itself */
+  .icon-table {
+    font-size: 20px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect for icons */
+  .property-item-table:hover .icon-table {
+    color: #007bff;
+    /* Change icon color on hover */
+    transform: scale(1.1);
+    /* Slightly increase icon size */
+  }
+  
+  /* Styling for property label */
+  .property-item-table p {
+    font-size: 15px;
+    color: #6c757d;
+    /* Soft grey color for labels */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Bold label for property type (e.g., Beds, Bathrooms, etc.) */
+  .property-item-table b {
+    font-weight: bold;
+    color: #333333;
+    /* Darker text for labels */
+  }
+  
+  /* Styling for the property values */
+  .property-item-table .property-value {
+    font-weight: normal;
+    color: #ff6347;
+    /* Tomato red color for property value */
+    font-size: 16px;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Change property value color on hover */
+  .property-item-table:hover .property-value {
+    color: #28a745;
+    /* Green color for value on hover */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .property-row-table {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .property-item-table {
+      width: 100%;
+      /* Full width on smaller screens */
+    }
+  }
+  
+  .loan-calculator-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    /* Ensures both sections stretch to the same height */
+    gap: 50px;
+    /* Space between the two sections */
+    background-color: #f5f5f5;
+    /* Optional background color */
+  }
+  
+  .loan-calculator {
+    flex: 2;
+    /* Makes this section take up equal space as the video section */
+    background: #fbfcfd;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* Stack children vertically */
+    justify-content: space-between;
+    /* Ensures form elements are evenly spaced */
+  }
+  
+  .video-section {
+    flex: 1;
+    /* Makes this section take up equal space as the calculator */
+    background: #daecff;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* Ensures the video doesn’t overflow the section */
+  }
+  
+  .Cal {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .CalculateLoan {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Adds spacing between form fields */
+  }
+  
+  .button-Loan {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+  }
+  
+  .button-Loan:hover {
+    background-color: #45a049;
+  }
+  
+  /* Result display style */
+  .result {
+    margin-top: 20px;
+    /* Adds space above the result */
+    padding: 10px;
+    background-color: #f0f8ff;
+    /* Light blue background for the result */
+    border-radius: 5px;
+    /* Rounded corners for the result box */
+    text-align: center;
+    /* Centers the result text */
+    font-size: 18px;
+    /* Larger font for the result */
+    color: #333;
+    /* Dark text color */
+  }
+  
+  @media (max-width: 768px) {
+    .loan-calculator-container {
+      flex-direction: column;
+      /* Stacks the sections vertically */
+    }
+  
+    .loan-calculator,
+    .video-section {
+      flex: none;
+      width: 100%;
+      /* Takes full width on small screens */
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .ownerview-details-para {
+        /* flex-direction: column; Stack items vertically */
+        align-items: flex-start; /* Align items to start */
+        font-size: 2.5rem !important;
+    }
+    .propertydetails-price {
+        text-align: left; /* Align price to the left */
+        font-size: 2.5rem !important;
+    }
+    .ownerview-details-button {
+        width: 100% !important; /* Full width for smaller screens */
+        font-size: 1rem !important;
+    }
+    .property-carousel img {
+        max-height: 200px; /* Smaller height for images on small screens */
+    }
+  }
+  
+  @media (max-width: 606px) {
+    .ownerview-details-para {
+        /* flex-direction: column; Stack items vertically */
+        align-items: flex-start; /* Align items to start */
+        font-size: 2rem !important;
+    }
+    .propertydetails-price {
+        text-align: left; /* Align price to the left */
+        font-size: 2rem !important;
+    }
+    .ownerview-details-button {
+        width: 90% !important; /* Full width for smaller screens */
+        font-size: 0.8rem !important;
+        height: auto;
+    }
+    .property-carousel img {
+        max-height: 200px; /* Smaller height for images on small screens */
+    }
+  }
+  
+  @media (max-width: 526px) {
+    .ownerview-details-para {
+        font-size: 1.5rem !important;
+    }
+    .propertydetails-price {
+        font-size: 1.5rem !important;
+    }
+    .ownerview-details-button {
+      width: 80% !important; /* Full width for smaller screens */
+      font-size: 0.7rem !important;
+  }
+  }
+  
+  @media (max-width: 453px) {
+    .ownerview-details-para {
+        /* flex-direction: column; Stack items vertically */
+        align-items: flex-start; /* Align items to start */
+        font-size: 1.3rem !important;
+    }
+    .propertydetails-price {
+        text-align: left; /* Align price to the left */
+        font-size: 1.3rem !important;
+    }
+    .ownerview-details-button {
+        width: 70% !important; /* Full width for smaller screens */
+        font-size: 0.6rem !important;
+    }
+  }
+  
+  
+  @media (max-width: 409px) {
+    .ownerview-details-para {
+        /* flex-direction: column; Stack items vertically */
+        align-items: flex-start; /* Align items to start */
+        font-size: 1rem !important;
+    }
+    .propertydetails-price {
+        text-align: left; /* Align price to the left */
+        font-size: 1rem !important;
+    }
+    .ownerview-details-button {
+        width: 60% !important; /* Full width for smaller screens */
+        font-size: 0.6rem !important;
+    }
+  }
+  
+  @media (max-width: 368px) {
+    .ownerview-details-para {
+        /* flex-direction: column; Stack items vertically */
+        align-items: flex-start; /* Align items to start */
+        font-size: 0.8rem !important;
+    }
+    .propertydetails-price {
+        text-align: left; /* Align price to the left */
+        font-size: 0.8rem !important;
+    }
+    .ownerview-details-button {
+        width: 50% !important; /* Full width for smaller screens */
+        font-size: 0.4rem !important;
+        height: auto;
+    }
+  }
